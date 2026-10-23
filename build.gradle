@@ -1,13 +1,3 @@
-plugins { id 'com.android.application' }
-
-android {
-    namespace 'com.jiowin.app'
-    compileSdk 35
-    defaultConfig {
-        applicationId 'com.jiowin.app'
-        minSdk 23
-        targetSdk 35
-        versionCode 2
-        versionName '1.1.0'
-    }
+plugins {
+    id 'com.android.application' version '8.7.3' apply false
 }
